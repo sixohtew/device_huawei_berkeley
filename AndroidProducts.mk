@@ -15,5 +15,5 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aosp_berkeley.mk \
-    $(LOCAL_DIR)/aoscp.mk
+    $(LOCAL_DIR)/bliss_berkeley.mk \
+    $(LOCAL_DIR)/bliss.mk
