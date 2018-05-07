@@ -14,12 +14,12 @@
 # limitations under the License.
 #
 
-$(call inherit-product, device/huawei/berkeley/full_berkeley.mk)
+$(call inherit-product, device/huawei/berkeley/bliss_berkeley.mk)
 
-# Inherit some common CypherOS stuff.
-$(call inherit-product, vendor/aoscp/configs/common_full_phone.mk)
+# Inherit some common Bliss stuff.
+$(call inherit-product, vendor/bliss/configs/common.mk)
 
-PRODUCT_NAME := aoscp_berkeley
+PRODUCT_NAME := bliss_berkeley
 PRODUCT_DEVICE := berkeley
 PRODUCT_BRAND := Huawei
 PRODUCT_MODEL := Honor View 10
